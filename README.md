@@ -28,9 +28,6 @@ composer install
 # or: composer install --ignore-platform-reqs
 # or: composer update
 # or: composer update --ignore-platform-reqs
-npm install
-npm audit fix
-npm run dev
 # create database: laravel    # utf8_unicode_ci
 php artisan migrate:fresh 
 php artisan key:generate
