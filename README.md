@@ -20,7 +20,21 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Install: (Run in Terminal)
 
+```bash
+cp .env.example .env
+composer install
+# or: composer install --ignore-platform-reqs
+# or: composer update
+# or: composer update --ignore-platform-reqs
+npm install
+npm audit fix
+npm run dev
+# create database: laravel    # utf8_unicode_ci
+php artisan migrate:fresh 
+php artisan key:generate
+php artisan serve
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
